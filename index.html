@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Calculadora de Gorjeta</title>
 </head>
 <body>
     <header>
-        <img src="./imagens/logo.svg" alt="Tip calculator logo for a bill splitting app">
+        <img src="./imagens/logo.svg" alt="Logo do Splitter">
     </header>
 
     <main>
@@ -16,7 +17,7 @@
                 <div class="conta">
                     <label for="conta">Conta</label>
                     <div>
-                        <img src="./images/icon-dollar.svg" alt="Dollar symbol icon indicating bill amount input">
+                        <img src="./images/icon-dollar.svg" alt="ícone cifrão">
                         <input type="number"  name="conta" id="conta">
                     </div>
                 </div>
@@ -38,7 +39,7 @@
                     <label for="pessoas">Quantidade de Pessoas</label>
                     <p>Não pode ser zero</p>
                     <div>
-                        <img src="./images/icon-person.svg" alt="Person silhouette icon indicating number of people sharing the bill">
+                        <img src="./images/icon-person.svg" alt="ícone da pessoa">
                         <input type="number" name="pessoas" id="pessoas" placeholder="0">
                     </div>
                 </div>
@@ -46,9 +47,9 @@
         </sections>
 
         <section class="resultados">
-            <div class="gorjetas">
+            <div class="gorjeta-total">
                 <p>
-                    <strong>gorjeta-total</strong> <br>
+                    <strong>Gorjeta</strong> <br>
                     / pessoa
                 </p>
 
