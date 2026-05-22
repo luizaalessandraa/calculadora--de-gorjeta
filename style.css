@@ -31,10 +31,12 @@ header {
 main {
     background-color: var(--white);
     padding: 2rem;
+    border-radius: 1.5625rem 1.5625rem 0 0;
 }
 
 .conta,
-.gorjeta {
+.gorjeta,
+.pessoas {
     margin-bottom: 2rem;
 }
 
@@ -46,7 +48,7 @@ main {
 }
 
 .conta div,
-pessoas div {
+.pessoas div {
     margin-top: 0.4rem;
     background-color: var(--green-100);
     padding: 0.4rem 1.2rem;
@@ -158,3 +160,22 @@ pessoas div {
     font-size: 1.25rem;
     padding-block: 0.5rem;
 } 
+
+@media(min-width: 920px) {
+    main {
+        display: flex;
+        gap: 3rem;
+        padding: 3rem;
+        border-radius: 1.5625rem;
+        max-width: 57.5rem;
+        margin-inline: auto;
+    }
+
+    main-section {
+        width: 100%;
+    }
+
+    .gorjeta div {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
