@@ -167,11 +167,11 @@ main {
     font-size: 2rem;
 }
 
-.resultados.gorjeta-total {
+.resultados .gorjeta-total {
     margin-top: 1.25rem;
 }
 
-.resultados.total{
+.resultados .total{
     margin-top: 2rem;
 }
 
@@ -215,11 +215,9 @@ main {
         margin-inline: auto;
     }
 
-    main-section {
+    main section {
         width: 100%;
     }
-
-    
 
     .gorjeta div {
         display: grid;
