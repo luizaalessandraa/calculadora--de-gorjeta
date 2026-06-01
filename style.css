@@ -50,7 +50,7 @@ main {
 }
 
 .conta div,
-.pessoas.input-box {
+.pessoas .input-box {
     margin-top: 0.4rem;
     background-color: var(--green-100);
     padding: 0.4rem 1.2rem;
@@ -65,7 +65,7 @@ main {
     border: none;
     text-align: right;
     width: 100%;
-    background-color: none;
+    background-color: transparent;
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--green-800);
@@ -234,7 +234,7 @@ main {
         flex-direction: column;
         justify-content: space-between;
 
-        padding: 2.5rem;
+        padding:  2rem;
     }
 
     .resultados div > strong {
